@@ -51,5 +51,17 @@ namespace IsAHasAClass
             _salary = salary;
         }
 
+        public virtual void sayHello()
+        {
+            Console.WriteLine("Hello I am a Person");
+        }
+
+        public override string ToString()
+        {
+            return Firstname + " " + Lastname + ",age: "+ Age;
+        }
+
+
+
     }
 }

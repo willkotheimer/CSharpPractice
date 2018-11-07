@@ -11,8 +11,13 @@ namespace IsAHasAClass
         static void Main(string[] args)
         {
             Person person = new Person("John","Smith",50);
-            
-            Console.WriteLine("{0} {1} - age: {2}", person.Firstname, person.Lastname, person.Age);
+
+            Student std = new Student("Max", "Kellerman",21);
+            std.University = "Harvard University";
+            std.AvgGrade = 3.5;
+
+            Console.WriteLine("{0} {1}, age:{2}",person.Firstname,person.Lastname, person.Age);
+            Console.WriteLine(person);
            
             if(person.Age<Person.minAge)
             {
@@ -24,6 +29,9 @@ namespace IsAHasAClass
             {
                 Console.WriteLine("Age is fine!");
             }
+
+            std.sayHello();
+
             Console.ReadKey();
         }
     }
