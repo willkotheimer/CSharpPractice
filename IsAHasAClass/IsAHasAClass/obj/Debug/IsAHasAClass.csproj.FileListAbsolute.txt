@@ -1,1 +1,6 @@
 c:\users\user\documents\visual studio 2015\Projects\IsAHasAClass\IsAHasAClass\bin\Debug\IsAHasAClass.exe.config
+c:\users\user\documents\visual studio 2015\Projects\IsAHasAClass\IsAHasAClass\bin\Debug\IsAHasAClass.exe
+c:\users\user\documents\visual studio 2015\Projects\IsAHasAClass\IsAHasAClass\bin\Debug\IsAHasAClass.pdb
+c:\users\user\documents\visual studio 2015\Projects\IsAHasAClass\IsAHasAClass\obj\Debug\IsAHasAClass.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2015\Projects\IsAHasAClass\IsAHasAClass\obj\Debug\IsAHasAClass.exe
+c:\users\user\documents\visual studio 2015\Projects\IsAHasAClass\IsAHasAClass\obj\Debug\IsAHasAClass.pdb
