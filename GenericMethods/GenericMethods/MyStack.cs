@@ -30,6 +30,46 @@ namespace GenericMethods
                 return value;
             }
         }
+
+        public void readList()
+        {
+            foreach(var i in _list)
+            {
+                Console.WriteLine(i);
+            }
+        }
+        public void UnShift(T value)
+        {
+            List<T> _listholder = new List<T>();
+            foreach (var i in _list)
+            {
+                _listholder.Add(i);
+            }
+
+            _list.Clear();
+            _list.Add(value);
+            foreach(var i in _listholder)
+            {
+                _list.Add(i);
+            }
+
+        }
+
+        public T Shift()
+        {
+            if (IsEmpty())
+            {
+                throw new InvalidOperationException("Stack is empty");
+            }
+            else
+            {
+                
+                T value = _list.FirstOrDefault();
+                _list.RemoveAt(0);
+
+                return value;
+            }
+        }
            
     }
 }
