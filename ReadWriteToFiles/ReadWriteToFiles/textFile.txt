@@ -1,0 +1,5 @@
+C# is cool
+.net is awesomie
+Generics allow us to have objects inside our Collections methods
+In turn objects can have collections inside them
+#Russiandolls
