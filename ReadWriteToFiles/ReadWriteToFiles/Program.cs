@@ -54,7 +54,7 @@ namespace ReadWriteToFiles
             Console.WriteLine("Wrote to file");
 
         }
-        private static void ReadFiles()
+        private async static void ReadFiles()
         {
            
             string dir = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName;
@@ -66,7 +66,7 @@ namespace ReadWriteToFiles
             try {
                 using (StreamReader reader = new StreamReader(path))
                 {
-                    string contents = reader.ReadToEnd();
+                    string contents = await reader.ReadToEnd();
                     Console.WriteLine("File Contents:");
                     Console.WriteLine(contents);
                 }
