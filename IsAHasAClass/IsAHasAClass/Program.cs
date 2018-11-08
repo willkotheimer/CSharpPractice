@@ -32,6 +32,18 @@ namespace IsAHasAClass
 
             std.sayHello();
 
+            //If std is a student return "I am a student", if std is a person return "I'm a person"
+
+            if(std is Student)
+            {
+                Console.WriteLine("{0} Is a student", std.Firstname);
+            }
+
+            if (std is Person)
+            {
+                Console.WriteLine("{0} Is a Person", std.Firstname);
+            }
+           
             Console.ReadKey();
         }
     }
