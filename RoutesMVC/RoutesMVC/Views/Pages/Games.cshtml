@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewData["Title"] = "Games";
+    
+}
+
+@{
+    List<Games> games = (List<Games>)ViewData["Games"];
+}
+
+<h2>Games</h2>
+
+<ul>
+    @foreach (var game in games)
+    {
+        <li>
+            @game.Title - @game.Genre;
+        </li>
+    }
+</ul>
+
+
+
